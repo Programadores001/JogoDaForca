@@ -40,7 +40,7 @@ if __name__ == '__main__':
 	while True:
 		for x in range(5):
 			print()
-		print(' {0}Para Concluir o Jogo Digite a Palavra Inteira!{1}   \n\n'.format(G,N))
+		print('{0}Para Concluir o Jogo Digite a Palavra Inteira!{1}   \n\n'.format(Y,N))
 		secreta = ''
 		for i in palavra:
 			secreta += i if i in acertos else '-'
